@@ -7,7 +7,7 @@ import { icons } from "./src/data/icons";
 // https://vite.dev/config/
 export default defineConfig({
   build: {
-    outDir: "dev-dist",
+    outDir: "dist",
   },
   plugins: [
     react(),
