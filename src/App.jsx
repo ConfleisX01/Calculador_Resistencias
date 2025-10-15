@@ -10,7 +10,7 @@ function App() {
   const [brand2, setBrand2] = useState(0)
   const [multiplier, setMultiplier] = useState(0)
 
-  const resistencia = (parseInt(brand1) * 10 + parseInt(brand2)) * parseInt(multiplier);
+  const resistencia = (parseInt(brand1) + parseInt(brand2)) * parseInt(multiplier);
 
   return (
     <>
